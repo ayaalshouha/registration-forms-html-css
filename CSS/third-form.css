@@ -1,0 +1,40 @@
+.container-3 form{
+    width: 350px;
+    padding: 16px;
+    text-align: center;
+}
+
+.container-3 input[type="email"], 
+.container-3 input[type="password"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom:1px solid #777;
+}
+
+.container-3 .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-3 .info p, 
+a{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.container-3 .register-btn{
+    width: 100%;
+    margin: 20px 0 ;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px #777;
+    background-color: white;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
